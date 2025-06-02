@@ -1,0 +1,207 @@
+{
+  "main": {
+    "id": "ffb178066350ead8",
+    "type": "split",
+    "children": [
+      {
+        "id": "0ef0d407b021679d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "719f5a8fee4fd761",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新規タブ"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e8952618cdedf8c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "a90d64f6910aae74",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9fb7c9b89d63849d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "ファイルエクスプローラ"
+            }
+          },
+          {
+            "id": "64fadfef61ade3f4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "検索"
+            }
+          },
+          {
+            "id": "c363b4fec46a3187",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "ブックマーク"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 296.5
+  },
+  "right": {
+    "id": "40f444425e7eeba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "75eb8f7294317c73",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b9333953fd16114d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "安宅和人-イシューからはじめよ［改訂版］――知的生産の「シンプルな本質」.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "安宅和人-イシューからはじめよ［改訂版］――知的生産の「シンプルな本質」へのバックリンク"
+            }
+          },
+          {
+            "id": "21adc48d48336742",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "安宅和人-イシューからはじめよ［改訂版］――知的生産の「シンプルな本質」.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "安宅和人-イシューからはじめよ［改訂版］――知的生産の「シンプルな本質」からのアウトゴーイングリンク"
+            }
+          },
+          {
+            "id": "91b54af9b540214d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "タグ"
+            }
+          },
+          {
+            "id": "53be1e2d28f2558c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "安宅和人-イシューからはじめよ［改訂版］――知的生産の「シンプルな本質」.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "安宅和人-イシューからはじめよ［改訂版］――知的生産の「シンプルな本質」のアウトライン"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false,
+      "obsidian-kindle-plugin:Sync your Kindle highlights": false
+    }
+  },
+  "active": "9fb7c9b89d63849d",
+  "lastOpenFiles": [
+    "03 未読本/裕之-トップセールスは教えてくれなかった！ 営業は台本が9割.md",
+    "03 未読本/康太郎-三行で撃つ 〈善く、生きる〉ための文章塾.md",
+    "康太郎-三行で撃つ 〈善く、生きる〉ための文章塾.md",
+    "裕之-トップセールスは教えてくれなかった！ 営業は台本が9割.md",
+    "00 読了本/敏生-身銭を切れ――「リスクを生きる」人だけが知っている人生の本質.md",
+    "Glasp/哲学/上岡龍太郎.md",
+    "01 再読予定/大石哲之-コンサル一年目が学ぶこと 新人・就活生からベテラン社員まで一生役立つ究極のベーシックスキル30選.md",
+    "01 再読予定/敏-小澤隆生 凡人の事業論――天才じゃない僕らが成功するためにやるべき驚くほどシンプルなこと.md",
+    "03 未読本/博-茶の本.md",
+    "00 読了本/呻也-ザ・スタートアップ――ネット起業！あのバカにやらせてみよう.md",
+    "01 再読予定/聡-ハッキング思考　強者はいかにしてルールを歪めるのか、それを正すにはどうしたらいいのか.md",
+    "00 読了本/由一-タピオカ屋はどこへいったのか？　商売の始め方と儲け方がわかるビジネスのカラクリ.md",
+    "00 読了本/グレッグ・マキューン、高橋璃子-エフォートレス思考 努力を最小化して成果を最大化する.md",
+    "00 読了本/和成-資本主義ハック　新しい経済の力を生き方に取り入れる30の視点.md",
+    "00 読了本/壽宏-リーダーシップの旅～見えないものを見る～.md",
+    "Clippings/11-1.「Xコンサルの様子」.md",
+    "Clippings",
+    "Glasp/哲学/スティーブ・ジョブズ流リーダーシップの真髄 伝記作者が語る _ ウォルター・アイザックソン _ [_2012年11_]月号｜DIAMOND ハーバード・ビジネス・レビュー.md",
+    "Glasp/哲学/2024年M1、松本人志さんの抜けた役割は誰が担ったのか、審査員9人は最適なのかをデータで確認する｜松本健太郎.md",
+    "Glasp/ビジネス/人気C向けアプリがいかにして初期ユーザー1,000人を獲得したか？｜Off Topic - オフトピック.md",
+    "Glasp/ビジネス/検証に9ヶ月かけたサービスが約2年半で450万食を突破。「つくりおき.jp」が語る、公開の翌月に「継続率100％」に至ったサービスづくりの事前検証のポイント。｜アプリマーケティング研究所.md",
+    "Glasp/ビジネス/グロースの逆説 _ メルカリで分析とサービスグロースをやる前に知りたかったこと｜樫田光 _ Hikaru Kashida.md",
+    "Glasp/哲学/立川談志師匠の言葉.md",
+    "Glasp/エンジニアリング/Firebase Cloud Storageでセキュリティルールを突き破る方法.md",
+    "Glasp/ビジネス/片手で使えるUIを考える！  〜苦なくタップできる領域とは_〜.md",
+    "Glasp/ビジネス/ゲーミフィケーションとは？必須要素と事例＆バートルテストの解説！ _ 日本コンベンションサービス株式会社 - JCS.md",
+    "Glasp/哲学/正論を伝える時のお作法 - Konifar's ZATSU.md",
+    "Glasp/哲学",
+    "Glasp/ビジネス",
+    "Glasp/エンジニアリング",
+    "Glasp/Flutter",
+    "Firestore Security Rules の書き方と守るべき原則.txt",
+    "Glasp/Firestore Security Rules の書き方と守るべき原則.txt",
+    "Glasp",
+    "01 再読予定",
+    "03 未読本"
+  ]
+}
