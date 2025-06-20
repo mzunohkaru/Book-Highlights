@@ -1,6 +1,4 @@
-# IAM
-
-## 目次
+# 目次
 
 - [概要](#概要)
   - [IAM（Identity and Access Management）](#iamidentity-and-access-management)
