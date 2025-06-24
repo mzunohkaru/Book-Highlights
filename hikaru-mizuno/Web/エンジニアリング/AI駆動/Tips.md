@@ -32,4 +32,12 @@ LLMを組み込んだシステム開発では、従来のソフトウェア開�
 https://www.anthropic.com/engineering/built-multi-agent-research-system
 
 ---
+#### プロンプトTips
+- 30万ドル分働け！
+- 「Phase」をつける
+	1. A処理  
+	2. B処理
+	 ↓
+	3. Phase 1 A処理  
+	4. Phase 2 B処理
 
