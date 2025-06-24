@@ -30,6 +30,7 @@ sudo systemctl enable amazon-ssm-agent
 ---
 ## 概要
 踏み台サーバーから、EC2インスタンス（プライベート）へ SSH接続
+
 ### 手順
 1. EC2インスタンス（踏み台 & プライベート）起動
 2. EC2インスタンス（踏み台 & プライベート）へ  IAM Role = `AmazonSSMManagedInstanceCore` をアサイン
@@ -64,3 +65,46 @@ ssh ec2-user@{プライベート IPv4 アドレス}
 [ec2-user@ip-10-0-200-176 ~]$ 
 ```
 
+---
+## 概要
+ EC2インスタンスでプロジェクトを構築
+
+### 手順
+1.  セットアップ
+```shell
+# パッケージマネージャーの更新
+sudo dnf -y update
+
+# Dockerのインストール
+sudo dnf install -y docker
+sudo systemctl enable --now docker
+sudo usermod -aG docker ec2-user
+source ~/.bashrc
+docker info
+
+# Docker-composeのインストール
+DOCKER_CONFIG=${DOCKER_CONFIG:-/usr/local/lib/docker}
+sudo mkdir -p $DOCKER_CONFIG/cli-plugins
+sudo curl -SL https://github.com/docker/compose/releases/download/v2.17.3/docker-compose-linux-x86_64 -o $DOCKER_CONFIG/cli-plugins/docker-compose
+sudo chmod +x /usr/local/lib/docker/cli-plugins/docker-compose
+source ~/.bashrc
+docker compose version
+```
+2. ローカルファイルをアップロード
+	- 補足
+		- node_modulesなどのディレクトを削除する
+```shell
+# ローカルファイルパス = Downloads/chat_prj
+# パブリック IP v4 = 18.118.120.115
+scp -r -i ~/.ssh/TrainingKeyPair.pem ~/[ローカルファイルパス] ec2-user@[パブリック IP v4]:/home/ec2-user/
+```
+3. Docker Compose起動
+	- 補足
+		- リポジトリ
+			- https://github.com/mzunohkaru/Nuxt-Sample-Post
+		- セキュリティグループ
+			- TCP 3000ポートを解放する
+```shell
+cd chat_prj
+docker compose up
+```
