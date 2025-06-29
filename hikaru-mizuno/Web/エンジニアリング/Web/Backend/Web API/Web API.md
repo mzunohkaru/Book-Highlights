@@ -191,22 +191,154 @@ Authorization: Bearer user1_token
 | UserInfo取得 | アクセストークン | 追加情報の取得     |
 ###  SSO
 
-![](sso-actor.png)
-![](sso-初回認証.png)
-![](sso-actor.png)
-![](sso-2回目以降のアクセス.png)
-![](sso-ログアウト.png)
+![](SSO-0-Actor.png)
+![](SSO-1-初回アクセス.png)
+![](SSO-0-Actor.png)
+![](SSO-2-別アプリへのアクセス.png)
+![](SSO-3-ログアウト.png)
+
+**Active Directory**
+- 階層構造（ツリー状）でユーザー情報を管理
+- 認証成功時はユーザー情報を送信
+
+**idp_sessionが別アプリでも同一参照できる仕組み**
+- 共通ドメイン設定
+- ブラウザの自動送信：ブラウザは「.company.com」配下の全サイトに同じクッキーを自動送信
+```
+IdP: sso.company.com 
+アプリ1: app1.company.com 
+アプリ2: app2.company.com
+```
+
+**SAML AuthnRequest**
+主要な要素
+- ID: リクエストの一意識別子（重複攻撃防止）
+- IssueInstant: リクエスト発行時刻（リプレイ攻撃防止）
+- AssertionConsumerServiceURL: SAMLResponseの返送先URL
+- Destination: IdPのSSO終点
+- URL Issuer: リクエスト発行者（SP）の識別子
+- NameIDPolicy: 要求するユーザー識別子の形式
+- RequestedAuthnContext: 要求する認証レベル
+```xml
+<samlp:AuthnRequest 
+	xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol"
+	xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"
+	ID="_8e8dc5f69a98cc4c1ff3427e5ce34606fd672f91e6"
+	Version="2.0"
+	IssueInstant="2025-06-29T12:34:56Z"
+	AssertionConsumerServiceURL="https://app1.company.com/sso/acs"
+	Destination="https://sso.company.com/sso/login">
+	<saml:Issuer>https://app1.company.com</saml:Issuer>
+	<samlp:NameIDPolicy 
+		Format="urn:oasis:names:tc:SAML:2.0:nameid-format:emailAddress"
+		AllowCreate="true"/>
+	<samlp:RequestedAuthnContext Comparison="exact">
+		<saml:AuthnContextClassRef>
+			urn:oasis:names:tc:SAML:2.0:ac:classes:PasswordProtectedTransport
+		</saml:AuthnContextClassRef>
+	</samlp:RequestedAuthnContext>
+</samlp:AuthnRequest>
+```
 
 **SAML Response**
+- Response
+	- InResponseTo：対応するAuthnRequestのID
+		- Status：認証結果（Success/Failure） 
+		- Signature：XMLデジタル署名（改ざん検知）
+- Assertion
+	- Subject：認証されたユーザーの識別情報
+		- NameID：ユーザーの一意識別子
+		- SubjectConfirmation：アサーションの有効性確認方法
+	- Conditions：アサーションの有効条件
+		- NotBefore/NotOnOrAfter：有効期限
+		- AudienceRestriction：使用可能なSP（サービスプロバイダー）
+	- AttributeStatement：ユーザー属性情報（メールアドレス、部署、権限など）
+	- AuthnStatement：認証に関する情報
+		- AuthnInstant：認証実行時刻
+		- SessionIndex：IdPセッションの識別子（SLOで使用）
+		- AuthnContext：使用された認証方法
+```xml
+<samlp:Response 
+    xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol"
+    xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"
+    ID="_8e8dc5f69a98cc4c1ff3427e5ce34606fd672f91e7"
+    InResponseTo="_8e8dc5f69a98cc4c1ff3427e5ce34606fd672f91e6"
+    Version="2.0"
+    IssueInstant="2025-06-29T12:35:12Z"
+    Destination="https://app1.company.com/sso/acs">
+    
+    <saml:Issuer>https://sso.company.com</saml:Issuer>
+    
+    <samlp:Status>
+        <samlp:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success"/>
+    </samlp:Status>
+    
+    <!-- デジタル署名 -->
+    <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:SignedInfo>
+            <ds:CanonicalizationMethod Algorithm="..."/>
+            <ds:SignatureMethod Algorithm="..."/>
+            <ds:Reference URI="">
+                <ds:DigestMethod Algorithm="..."/>
+                <ds:DigestValue>...</ds:DigestValue>
+            </ds:Reference>
+        </ds:SignedInfo>
+        <ds:SignatureValue>...</ds:SignatureValue>
+    </ds:Signature>
+    
+    <!-- アサーション（メイン情報） -->
+    <saml:Assertion 
+        ID="_8e8dc5f69a98cc4c1ff3427e5ce34606fd672f91e8"
+        Version="2.0"
+        IssueInstant="2025-06-29T12:35:12Z">
+        
+        <saml:Issuer>https://sso.company.com</saml:Issuer>
+        
+        <saml:Subject>
+            <saml:NameID Format="urn:oasis:names:tc:SAML:2.0:nameid-format:emailAddress">
+                tanaka@company.com
+            </saml:NameID>
+            <saml:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+                <saml:SubjectConfirmationData 
+                    NotOnOrAfter="2025-06-29T13:35:12Z"
+                    Recipient="https://app1.company.com/sso/acs"
+                    InResponseTo="_8e8dc5f69a98cc4c1ff3427e5ce34606fd672f91e6"/>
+            </saml:SubjectConfirmation>
+        </saml:Subject>
+        
+        <saml:Conditions 
+            NotBefore="2025-06-29T12:35:12Z"
+            NotOnOrAfter="2025-06-29T13:35:12Z">
+            <saml:AudienceRestriction>
+                <saml:Audience>https://app1.company.com</saml:Audience>
+            </saml:AudienceRestriction>
+        </saml:Conditions>
+        
+        <saml:AttributeStatement>
+            <saml:Attribute Name="email">
+                <saml:AttributeValue>tanaka@company.com</saml:AttributeValue>
+            </saml:Attribute>
+            <saml:Attribute Name="department">
+                <saml:AttributeValue>営業部</saml:AttributeValue>
+            </saml:Attribute>
+            <saml:Attribute Name="role">
+                <saml:AttributeValue>manager</saml:AttributeValue>
+            </saml:Attribute>
+        </saml:AttributeStatement>
+        
+        <saml:AuthnStatement 
+            AuthnInstant="2025-06-29T12:35:12Z"
+            SessionIndex="_be9967abd904ddcae3c0eb4189adbe3f71e327cf93">
+            <saml:AuthnContext>
+                <saml:AuthnContextClassRef>
+                    urn:oasis:names:tc:SAML:2.0:ac:classes:PasswordProtectedTransport
+                </saml:AuthnContextClassRef>
+            </saml:AuthnContext>
+        </saml:AuthnStatement>
+    </saml:Assertion>
+</samlp:Response>
+```
 
-| Response Element   | ルート要素        |
-| ------------------ | ------------ |
-| Assertion          | 認証・属性情報を含む   |
-| Subject            | ユーザー識別情報     |
-| Conditions         | 有効性条件（時間制限等） |
-| AuthnStatement     | 認証方法・時刻      |
-| AttributeStatement | ユーザー属性       |
-| Digital Signatures | 完全性保証        |
 
 ## ホスト名
 
