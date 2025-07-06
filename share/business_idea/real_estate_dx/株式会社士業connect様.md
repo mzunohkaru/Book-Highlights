@@ -3,10 +3,8 @@ marp: true
 theme: default
 class: lead
 paginate: true
-header: 'あなたの会社名'
-footer: '© 2025 あなたの会社名'
-backgroundColor: '#f5f5f5'
-color: '#333333'
+backgroundColor: "#f5f5f5"
+color: "#333333"
 ---
 ## 自己紹介(利廣 悠司)
 
@@ -68,6 +66,8 @@ color: '#333333'
     * **課題**: 契約書類作成までのお客様とのやり取りコスト増
     * **AI活用内容**: 物件提案から内見予約、契約書類作成までを自動化
     * **導入効果**: 低コスト化＋スピードの向上
+---
+## AIを活用したプロダクト(調査内容)
 
 事例メモ
 スケジュール最適化
