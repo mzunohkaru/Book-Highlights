@@ -2,7 +2,7 @@
 URL: https://note.com/kenichiro_hara/n/nde3bf0c242b1
 Glasp URL: https://glasp.co/4lnt6ccBTsO94gGCU64ypnvR8Af1/p/299e78e6d0c328b7b0b1
 Tags: []
-Last updated: 2025-06-24
+Last updated: 2025-08-02
 ---
 #### Highlights & Notes
 
