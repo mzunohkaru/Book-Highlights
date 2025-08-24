@@ -16,42 +16,7 @@ kindle-sync:
 * [Kindle link](kindle://book?action=open&asin=B0814STTHV)
 
 ## Highlights
-CHAPTER29 　製品開発チームの目標 — location: [98](kindle://book?action=open&asin=B0814STTHV&location=98) ^ref-34156
 
-まだ
-
----
-CHAPTER36 　カスタマーレターのテクニック — location: [111](kindle://book?action=open&asin=B0814STTHV&location=111) ^ref-10821
-
-まだ
-
----
-発見のプランニングテクニック — location: [115](kindle://book?action=open&asin=B0814STTHV&location=115) ^ref-30131
-
-よく分からんかった
-
----
-発見のアイディエーションテクニック — location: [121](kindle://book?action=open&asin=B0814STTHV&location=121) ^ref-59627
-
-まだ
-
----
-発見のプロトタイピングテクニック — location: [127](kindle://book?action=open&asin=B0814STTHV&location=127) ^ref-59078
-
-PoCやMVPのリリース計画が立った時点で読む
-
----
-発見のテストテクニック — location: [132](kindle://book?action=open&asin=B0814STTHV&location=132) ^ref-58977
-
-まだ
-かなり近いうち
-
----
-トランスフォーメーションのテクニック — location: [148](kindle://book?action=open&asin=B0814STTHV&location=148) ^ref-5614
-
-最速仕事術を読んでから
-
----
 ## 製品開発が失敗する根本原因
 
 3. 少なくとも私たちのアイデアの半分はうまくいかない — location: [400](kindle://book?action=open&asin=B0814STTHV&location=400) ^ref-37975
@@ -172,7 +137,7 @@ CEOと同様、プロダクトマネジャーはビジネスのあらゆる側�
 
 #### テックトレンド
 先端技術に牽引された製品に、情熱を注がなければならない — location: [813](kindle://book?action=open&asin=B0814STTHV&location=813) ^ref-43069
-成功するプロダクトマネジャーは、飛び抜けて頭がよく、創造的で、粘り強い人間である — location: [833](kindle://book?action=open&asin=B0814STTHV&location=833) ^ref-17308
+成功する<u>プロダクトマネジャーは、飛び抜けて頭がよく、創造的で、粘り強い人間である</u> — location: [833](kindle://book?action=open&asin=B0814STTHV&location=833) ^ref-17308
 知的好奇心にあふれ、新しい技術をすぐに習得し、それを使って顧客の問題を解決したり、新しい顧客の心をつかんだり、新しいビジネスモデルを作ったりすることができる — location: [835](kindle://book?action=open&asin=B0814STTHV&location=835) ^ref-49008
 ビジネスの問題を解決するために通常の職能の枠にとらわれずに考えられる — location: [837](kindle://book?action=open&asin=B0814STTHV&location=837) ^ref-21381
 🍄
