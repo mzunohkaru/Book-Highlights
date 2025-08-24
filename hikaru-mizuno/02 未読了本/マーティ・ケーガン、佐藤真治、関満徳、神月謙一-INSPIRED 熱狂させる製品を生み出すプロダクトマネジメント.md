@@ -4,9 +4,9 @@ kindle-sync:
   title: INSPIRED 熱狂させる製品を生み出すプロダクトマネジメント
   author: マーティ・ケーガン、佐藤真治、関満徳、神月謙一
   asin: B0814STTHV
-  lastAnnotatedDate: '2025-08-23'
+  lastAnnotatedDate: '2025-08-24'
   bookImageUrl: 'https://m.media-amazon.com/images/I/81iN48+R2EL._SY160.jpg'
-  highlightsCount: 217
+  highlightsCount: 201
 ---
 # INSPIRED 熱狂させる製品を生み出すプロダクトマネジメント
 ## Metadata
@@ -229,7 +229,7 @@ KPIの理解が必要。KPIとは、以下の要素である。
 プロダクトマネジャーとデザイナーから成る強力な開発チームを作り上げる — location: [1312](kindle://book?action=open&asin=B0814STTHV&location=1312) ^ref-41832
 確かな技術的経歴と、当該ビジネスや市場における経済や力学への理解をあわせ持った人物 — location: [1372](kindle://book?action=open&asin=B0814STTHV&location=1372) ^ref-53466
 
-自分は強力なビジョンを持ったリーダーだと思い込む — location: [1348](kindle://book?action=open&asin=B0814STTHV&location=1348) ^ref-60466
+自分は強力なビジョンを持ったリーダーだと思い込んで — location: [1348](kindle://book?action=open&asin=B0814STTHV&location=1348) ^ref-45452
 ⭐️
 
 物事を実現する方法を知っていて、その能力が完璧に実証されている製品開発リーダーが必要 — location: [1353](kindle://book?action=open&asin=B0814STTHV&location=1353) ^ref-13059
