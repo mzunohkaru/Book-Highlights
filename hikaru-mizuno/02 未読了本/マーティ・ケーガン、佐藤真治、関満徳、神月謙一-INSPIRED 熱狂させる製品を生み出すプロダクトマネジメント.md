@@ -4,7 +4,7 @@ kindle-sync:
   title: INSPIRED 熱狂させる製品を生み出すプロダクトマネジメント
   author: マーティ・ケーガン、佐藤真治、関満徳、神月謙一
   asin: B0814STTHV
-  lastAnnotatedDate: '2025-08-24'
+  lastAnnotatedDate: '2025-08-28'
   bookImageUrl: 'https://m.media-amazon.com/images/I/81iN48+R2EL._SY160.jpg'
   highlightsCount: 201
 ---
@@ -19,6 +19,42 @@ kindle-sync:
 
 ## 製品開発が失敗する根本原因
 
+CHAPTER29 　製品開発チームの目標 — location: [98](kindle://book?action=open&asin=B0814STTHV&location=98) ^ref-34156
+
+まだ
+
+---
+CHAPTER36 　カスタマーレターのテクニック — location: [111](kindle://book?action=open&asin=B0814STTHV&location=111) ^ref-10821
+
+まだ
+
+---
+発見のプランニングテクニック — location: [115](kindle://book?action=open&asin=B0814STTHV&location=115) ^ref-30131
+
+よく分からんかった
+
+---
+発見のアイディエーションテクニック — location: [121](kindle://book?action=open&asin=B0814STTHV&location=121) ^ref-59627
+
+まだ
+
+---
+発見のプロトタイピングテクニック — location: [127](kindle://book?action=open&asin=B0814STTHV&location=127) ^ref-59078
+
+PoCやMVPのリリース計画が立った時点で読む
+
+---
+発見のテストテクニック — location: [132](kindle://book?action=open&asin=B0814STTHV&location=132) ^ref-58977
+
+まだ
+かなり近いうち
+
+---
+トランスフォーメーションのテクニック — location: [148](kindle://book?action=open&asin=B0814STTHV&location=148) ^ref-5614
+
+最速仕事術を読んでから
+
+---
 3. 少なくとも私たちのアイデアの半分はうまくいかない — location: [400](kindle://book?action=open&asin=B0814STTHV&location=400) ^ref-37975
 
 	ロードマップにあるアイデアの少なくとも半分は、意図したものの販売につながらない（ちなみに、本当に優秀な開発チームは、アイデアの少なくとも４分の３は望んだような成果を生まないと考えている — location: [406](kindle://book?action=open&asin=B0814STTHV&location=406) ^ref-20137
@@ -274,7 +310,7 @@ CEOやCTOと個人レベルでうまくやっていくことができなけれ�
 #### アウトカムベースのロードマップ
 重要なのはアウトプットではなくアウトカム — location: [1832](kindle://book?action=open&asin=B0814STTHV&location=1832) ^ref-39536
 
-解決すべきビジネス上の問題によって記述する — location: [1834](kindle://book?action=open&asin=B0814STTHV&location=1834) ^ref-45055
+解決すべきビジネス上の問題によって記述する — location: [1834](kindle://book?action=open&asin=B0814STTHV&location=1834) ^ref-8603
 
 アウトカムベースのロードマップには、本当に期日に制約がある製品だけではなく、すべての製品に締め切り日を設定する傾向があり、チームの文化やモチベーションに影響を与える可能性がある — location: [1839](kindle://book?action=open&asin=B0814STTHV&location=1839) ^ref-27737
 
