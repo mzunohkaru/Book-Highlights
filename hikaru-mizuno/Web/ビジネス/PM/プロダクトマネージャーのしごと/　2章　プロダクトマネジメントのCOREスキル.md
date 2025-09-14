@@ -6,12 +6,14 @@ Last updated: 2025-09-07
 ---
 #### Highlights & Notes
 
+## プロダクトマネジメントのCOREスキル
+
+![](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9784814400430/files/images/ch02_01.png)
+
 > ![](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9784814400430/files/images/ch02_02.png)
 
-> ステークホルダーとコミュニケーション（Communicate）する持続的に成功するチームを組織化（Organize）するプロダクトのユーザーのニーズとゴールをリサーチ（Research）するプロダクトチームがゴールに到達するための日々のタスクを実行（Execute）する
-
-> プロダクトマネジメントのCOREスキル
-
-> ![](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9784814400430/files/images/ch02_01.png)
-
+- ステークホルダーとコミュニケーション（Communicate）する
+- 持続的に成功するチームを組織化（Organize）する
+- プロダクトのユーザーのニーズとゴールをリサーチ（Research）する
+- プロダクトチームがゴールに到達するための日々のタスクを実行（Execute）する
 
