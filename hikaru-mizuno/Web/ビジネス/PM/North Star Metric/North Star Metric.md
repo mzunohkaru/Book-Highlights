@@ -105,15 +105,15 @@ Top line metric：NSMの直接のLeading Indicatorになっているもの
 ![](Leading%20Indicator%20MECE.png)
 
 
-### NSMの注意点
-- PMFが確立され、Growthの方向性が定まってからNSMを設定する
+### ⭐️NSMの注意点
+- ==PMFが確立され、Growthの方向性が定まってからNSMを設定する==
     - 0 -> 1 ではなく、1 -> 100 のタイミング
-- 絶対数で設定する
+- ==絶対数で設定する==
     - %（相対数）は増減率の場合に設定する
 - 頻繁に変更しない
     - 1〜3年で達成する規模感
 - 会社で１つ
-- Trade off metrics
+- ==Trade off metrics==
     - NSMが上がっていればOK
     - 下がるKPIが出ることが必ずしも悪ではない
 
