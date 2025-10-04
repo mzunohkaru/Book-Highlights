@@ -4,9 +4,9 @@ kindle-sync:
   title: プロダクトマネジメントのすべて 事業戦略・IT開発・UXデザイン・マーケティングからチーム・組織運営まで
   author: 及川 卓也、小城 久美子、曽根原 春樹
   asin: B08W51KLQJ
-  lastAnnotatedDate: '2025-08-31'
+  lastAnnotatedDate: '2025-10-02'
   bookImageUrl: 'https://m.media-amazon.com/images/I/8147b8Ex3WL._SY160.jpg'
-  highlightsCount: 64
+  highlightsCount: 66
 ---
 # プロダクトマネジメントのすべて 事業戦略・IT開発・UXデザイン・マーケティングからチーム・組織運営まで
 ## Metadata
@@ -246,6 +246,12 @@ ITプロダクトでペルソナを作成する場合は、そのスキルレベ
 初めのフェーズではユーザーが価値を検証することができる最低限の機能のみを提供 — location: [2123](kindle://book?action=open&asin=B08W51KLQJ&location=2123) ^ref-51627
 その後のフェーズでプロダクトに肉づけをするような機能を追加していくという流れを取るのがMVPの考え方 — location: [2124](kindle://book?action=open&asin=B08W51KLQJ&location=2124) ^ref-37303
 
+
+---
+ユーザーストーリーは、新しい機能を望む人（多くの場合、そのシステムの顧客）の視点で見た機能についての短く、シンプルな説明である — location: [2527](kindle://book?action=open&asin=B08W51KLQJ&location=2527) ^ref-45776
+
+---
+ユーザーストーリーを実現するための理由や背景について記載する — location: [2534](kindle://book?action=open&asin=B08W51KLQJ&location=2534) ^ref-17615
 
 ---
 プロダクトの価値をどのように切り出して提示するかが、プロダクトの収益性を左右する — location: [5286](kindle://book?action=open&asin=B08W51KLQJ&location=5286) ^ref-12317
