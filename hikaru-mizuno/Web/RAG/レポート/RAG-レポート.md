@@ -51,6 +51,31 @@
 | Graph ベース RAG | ナレッジグラフとテキスト検索を組み合わせ、クリティックモジュールなどで評価しつつ結果を精緻化。 | リレーショナルな知識構造を活かした多段階推論が可能。 | グラフ DB の構築・更新コストがかかる。 | 医療・学術など、複雑なエンティティ関係を扱うシステム。 |
 | Agentic Document Workflows (ADW) | 文書処理（インボイス、契約書、レポートなど）に特化したワークフロー。 | 複数ステップの文書処理を一元化できる。 | 文書形式ごとの細かな設定やテンプレート設計が必要。 | 契約書の審査、自動請求処理、保険金請求管理など。 |
 
+- シングルエージェント型
+	- 1つのエージェント（LLM）が全部をこなす
+![](https://storage.googleapis.com/zenn-user-upload/ad23fdc88ae8-20250130.png)
+
+- マルチエージェント型
+	- 複数のエージェント（LLM）がデータソースごとに存在
+ ![](https://storage.googleapis.com/zenn-user-upload/cdd0ffcb8e36-20250130.png)
+
+- 階層型エージェント
+	- 上位エージェントが戦略決定し、下位エージェントが実行
+ ![](https://storage.googleapis.com/zenn-user-upload/b02cc102ad67-20250130.png)
+
+- Corrective RAG（セルフチェック付きRAG）
+	- 検索結果が十分かどうかセルフチェック
+ ![](https://storage.googleapis.com/zenn-user-upload/5536be259fbe-20250130.png)
+
+- Adaptive RAG（適応型RAG）
+	- ユーザーの質問内容に応じて、戦略を使い分ける
+ ![](https://storage.googleapis.com/zenn-user-upload/d7f8c4bf73a6-20250130.png)
+
+- Graph-Based Agentic RAG
+	- グラフDBとAIエージェントを利用したRAG
+ ![](https://storage.googleapis.com/zenn-user-upload/a121c1fa5259-20250130.png)
+
+
 # RAG の精度改善
 ## RAG アプリ全体プロセス
 - 要件整理 → POC／改善 → 本番構築 → 継続的改善
