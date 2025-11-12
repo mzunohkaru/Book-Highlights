@@ -157,7 +157,7 @@ kindle-sync:
 全員に愛される必要はない — location: [4388](kindle://book?action=open&asin=B00978ZRYA&location=4388) ^ref-19832
 この覚悟がコンセプトを考えるうえでの大原則 — location: [4388](kindle://book?action=open&asin=B00978ZRYA&location=4388) ^ref-1899
 
-ディスインターメディエーション」（中間業者をスキップできる）、こうした当時の流行り言葉をうたっていました。
+「ディスインターメディエーション」（中間業者をスキップできる）、こうした当時の流行り言葉をうたっていました。
 しかし、これらはいずれも「どのように」についての方法論です。
 表層にある方法をコンセプトと履き違えていた企業は、すぐに淘汰されました — location: [4430](kindle://book?action=open&asin=B00978ZRYA&location=4430) ^ref-41808
 🍄🍄🍄
@@ -214,6 +214,7 @@ kindle-sync:
 **「それだけを見ると一見して非合理なのだけれども、ストーリー全体の文脈では強力な合理性を持つ」** — location: [5051](kindle://book?action=open&asin=B00978ZRYA&location=5051) ^ref-21411
 
 ==誰にとっても合理的な要素だけでできているストーリーは面白みに欠ける== — location: [5054](kindle://book?action=open&asin=B00978ZRYA&location=5054) ^ref-62706
+(関本): 合理的だと人は動かないのでは？
 
 一見非合理な要素をストーリーに組み込み、それを全体の合理性に転化するというキラーパスの発想 — location: [5114](kindle://book?action=open&asin=B00978ZRYA&location=5114) ^ref-52808
 
