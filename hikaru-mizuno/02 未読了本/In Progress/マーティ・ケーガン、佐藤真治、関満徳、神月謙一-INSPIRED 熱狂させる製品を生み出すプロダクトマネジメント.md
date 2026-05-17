@@ -7,6 +7,13 @@ kindle-sync:
   lastAnnotatedDate: '2025-08-28'
   bookImageUrl: 'https://m.media-amazon.com/images/I/81iN48+R2EL._SY160.jpg'
   highlightsCount: 201
+kindle-bookId: '9564'
+kindle-title: INSPIRED 熱狂させる製品を生み出すプロダクトマネジメント
+kindle-author: 'マーティ・ケーガン, 佐藤真治, 関満徳, and 神月謙一'
+kindle-highlightsCount: 202
+kindle-asin: B0814STTHV
+kindle-lastAnnotatedDate: Invalid date
+kindle-bookImageUrl: 'https://m.media-amazon.com/images/I/81iN48+R2EL._SX1024.jpg'
 ---
 # INSPIRED 熱狂させる製品を生み出すプロダクトマネジメント
 ## Metadata
@@ -312,6 +319,11 @@ CEOやCTOと個人レベルでうまくやっていくことができなけれ�
 
 解決すべきビジネス上の問題によって記述する — location: [1834](kindle://book?action=open&asin=B0814STTHV&location=1834) ^ref-8603
 
+— location: [1834](kindle://book?action=open&asin=B0814STTHV&location=1834) ^ref-65535
+
+アウトカムベースのロードマップ
+
+---
 アウトカムベースのロードマップには、本当に期日に制約がある製品だけではなく、すべての製品に締め切り日を設定する傾向があり、チームの文化やモチベーションに影響を与える可能性がある — location: [1839](kindle://book?action=open&asin=B0814STTHV&location=1839) ^ref-27737
 
 ---

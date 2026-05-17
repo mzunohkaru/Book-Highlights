@@ -7,6 +7,13 @@ kindle-sync:
   lastAnnotatedDate: '2025-10-12'
   bookImageUrl: 'https://m.media-amazon.com/images/I/81HbK8skikS._SY160.jpg'
   highlightsCount: 73
+kindle-bookId: '1675'
+kindle-title: EMPOWERED 普通のチームが並外れた製品を生み出すプロダクトリーダーシップ
+kindle-author: 'マーティ・ケーガン, クリス・ジョーンズ, 二木夢子, and 及川卓也'
+kindle-highlightsCount: 77
+kindle-asin: B098B4NLFJ
+kindle-lastAnnotatedDate: Invalid date
+kindle-bookImageUrl: 'https://m.media-amazon.com/images/I/81HbK8skikS._SX1024.jpg'
 ---
 # EMPOWERED 普通のチームが並外れた製品を生み出すプロダクトリーダーシップ
 ## Metadata
@@ -240,6 +247,20 @@ CPOがCEOに十分に関わってもらい、ビジョンとの真のつなが�
 
 ---
 優れた戦略は、達成すれば連鎖的に良い結果に結びつくような１つ、またはごく少数の中心的な目標に、エネルギーとリソースをフォーカスすることによって機能する — location: [4366](kindle://book?action=open&asin=B098B4NLFJ&location=4366) ^ref-3149
+
+---
+こちらの打つ手の効果が一気に高まるようなポイントを見極め、そこに狙いを絞り、手持ちのリソースと行動を集中すること、これに尽きる — location: [4396](kindle://book?action=open&asin=B098B4NLFJ&location=4396) ^ref-24148
+
+良い戦略
+
+---
+しっかりとした準備なしでプロダクト戦略が生まれた事例は１つもない。 — location: [4398](kindle://book?action=open&asin=B098B4NLFJ&location=4398) ^ref-30259
+
+---
+一流企業では、エンパワーされたエンジニアこそがこうした実現技術を発見し、多くの場合はプロトタイプの形で、活用の可能性を積極的にリーダーに提示する — location: [4453](kindle://book?action=open&asin=B098B4NLFJ&location=4453) ^ref-62381
+
+---
+プロダクトリーダーまたはデザインリーダーはしばしば、別々のチームの学習内容同士を結びつけて、真のチャンスを見いだす最初の人物となる。 — location: [4480](kindle://book?action=open&asin=B098B4NLFJ&location=4480) ^ref-49518
 
 ---
 さまざまな観点が求められ奨励される環境でこそ、イノベーションが繁栄する — location: [4627](kindle://book?action=open&asin=B098B4NLFJ&location=4627) ^ref-50539

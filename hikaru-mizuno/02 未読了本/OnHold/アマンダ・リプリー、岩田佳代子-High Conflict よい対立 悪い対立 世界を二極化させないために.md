@@ -7,6 +7,13 @@ kindle-sync:
   lastAnnotatedDate: '2025-05-11'
   bookImageUrl: 'https://m.media-amazon.com/images/I/81SHkNt1o2L._SY160.jpg'
   highlightsCount: 4
+kindle-bookId: '14039'
+kindle-title: High Conflict よい対立 悪い対立 世界を二極化させないために
+kindle-author: アマンダ・リプリー and 岩田佳代子
+kindle-highlightsCount: 5
+kindle-asin: B0D458917R
+kindle-lastAnnotatedDate: Invalid date
+kindle-bookImageUrl: 'https://m.media-amazon.com/images/I/81SHkNt1o2L._SX1024.jpg'
 ---
 # High Conflict よい対立 悪い対立 世界を二極化させないために
 ## Metadata
@@ -16,6 +23,11 @@ kindle-sync:
 * [Kindle link](kindle://book?action=open&asin=B0D458917R)
 
 ## Highlights
+— location: [7](kindle://book?action=open&asin=B0D458917R&location=7) ^ref-65535
+
+天国も地獄もない死後の世界は？
+
+---
 よい対立 — location: [105](kindle://book?action=open&asin=B0D458917R&location=105) ^ref-46412
 
 ---
